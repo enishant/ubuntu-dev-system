@@ -61,7 +61,9 @@ mkdir ~/dev/lamp
 # Install NES Emulator
 sudo apt-get install -y nestopia
 cd ~/dev
-git clone https://github.com/TheDarkRoot/Nesroms.git
+git clone https://github.com/enishant/Nesroms.git Nesroms
+chmod 755 ~/dev/Nesroms/UbuntuApps/*.desktop
+cp ~/dev/Nesroms/UbuntuApps/*.desktop ~/.local/share/applications
 
 # Install VLC Media Player
 sudo apt-get install -y vlc
